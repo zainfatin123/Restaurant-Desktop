@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ecfae5;
+}
+
+#top {
+    background-color: #ffdcdc;
+    background-position: top;
+    padding: 10px 80px 10px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+}
+
+#navigasi {
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+
+#navigasi a {
+    font-size: 27px;
+    color: #86a788;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+#navigasi a:hover {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+#navigasi img {
+    width: 120px;
+    height: auto;
+}
+
+#banner {
+    margin: 0 auto;
+    padding-top: 145px;
+}
+
+#banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: -50px;
+}
+
+#news {
+    background-image: url(IMG/lampion\ atas.png), url(IMG/sakura\ atas.png);
+    background-position: left top, right top;
+    background-repeat: no-repeat, no-repeat;
+}
+
+#news a {
+    justify-content: center;
+    display: flex;
+}
+
+#news img {
+    width: 180px;
+}
+
+#judul {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #f8ed8c;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#teksberita {
+    font-size: 25px;
+    text-align: left;
+    width: 550px;
+    margin: 0 auto;
+    
+}
+
+#teksberita a {
+    justify-content: left;
+    color: #bb371a;
+    text-decoration: none;
+    border-bottom: solid 4px #6a960c;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+#teksberita a:hover {
+    color: #ffa989;
+}
+
+span {
+    color: #ecfae5;
+}
+
+#menusatulagi a {
+    display: flex;
+    justify-content: center;
+}
+
+#menusatulagi img {
+    width: 450px;
+}
+
+.tombol:hover {
+    transform: scale(1.05);
+}
+
+#sns {
+    background-image: url(IMG/sakuran\ bawah.png), url(IMG/lampion\ bawah.png);
+    background-position: left bottom, right bottom;
+    background-repeat: no-repeat, no-repeat;
+}
+
+#ikon_sns {
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    justify-content: center;
+}
+
+#ikon_sns img {
+    width: 120px;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+#ikon_sns img:hover {
+    transform: rotate(3deg);
+}
+
+#footer {
+    background-color: #fefbc7;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 30px 80px 40px;
+    justify-content: center;
+}
+
+#footer img {
+    width: 160px;
+}
+
+#footer p {
+    font-size: 17px;
+}
