@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ecfae5;
+}
+
+#top {
+    background-color: #ffdcdc;
+    background-position: top;
+    padding: 10px 80px 10px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+}
+
+#navigasi {
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+
+#navigasi a {
+    font-size: 27px;
+    color: #86a788;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+#navigasi a:hover {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+#navigasi img {
+    width: 150px;
+}
+
+#tulisan {
+    background-image: url(IMG/lampion\ atas.png), url(IMG/sakura\ atas.png);
+    background-position: left top, right top;
+    background-repeat: no-repeat, no-repeat;
+    margin-top: 110px;
+    padding-top: 25px;
+}
+
+h2 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: #f8ed8c;
+    margin-bottom: 50px;
+}
+
+#atas {
+    font-size: 30px;
+    color: #bb371a;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#bintang {
+    font-size: 20px;
+    color: #bb371a;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#bingkai {
+    margin-bottom: 70px;
+}
+
+#bingkai ul {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    list-style: none;
+    padding-top: 50px;
+}
+
+#bingkai li {
+    background-image: url(IMG/bingkai.png);
+    background-repeat: no-repeat;
+    width: 443px;
+    height: 443px;
+}
+
+#bingkai img {
+    margin-left: 135px;
+    margin-top: 20px;
+}
+
+#bingkai p {
+    color: #bb371a;
+}
+
+.pendek {
+    margin-left: 180px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bawah {
+    font-size: 22px;
+    text-align: center;
+}
+
+#teks {
+    background-color: #e1ffff;
+    height: 386px;
+    width: 785px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 60px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#teks p {
+    color: #898ac4;
+    line-height: 2;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+#judul {
+    padding-top: 10px;
+}
+
+#menu {
+    background-image: url(IMG/sakuran\ bawah.png), url(IMG/lampion\ bawah.png);
+    background-position: left bottom, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    text-align: center;
+}
+
+#menu img {
+    width: 450px;
+    margin-bottom: 70px;
+}
+
+#menu img:hover {
+    transform: scale(1.05);
+}
+
+#footer {
+    background-color: #fefbc7;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 30px 80px 40px;
+    justify-content: center;
+}
+
+#footer img {
+    width: 160px;
+}
+
+#footer p {
+    font-size: 17px;
+}
